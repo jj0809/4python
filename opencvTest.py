@@ -53,13 +53,13 @@ def writeVideo():
 
         # 영상을 저장한다.
         #out.write(frame)
-        
+         
         '''
         # 10초만 저장함
         now_time = datetime.datetime.now()
         elapsed_time = now_time - currentTime
 
-        if elapsed_time.total_seconds() >= 10:
+        if elapsed_time.totalseconds() >= 10:
             break
         '''
 
